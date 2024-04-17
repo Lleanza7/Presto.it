@@ -1,0 +1,2339 @@
+.body {
+    padding: 0px;
+    margin: 0px;
+    background: url("/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg");
+}
+
+.background {
+    background: url("/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: #dbd8e3;
+    height: 60px;
+    width: 100%;
+    padding: 0px;
+    position: fixed;
+    z-index: 1005;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.mobile .div-container {
+    background: url("/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg");
+}
+
+.container-img-back {
+    background: url("/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.popup {
+    width: 600px;
+    height: 400px;
+    background-color: #dbd8e3;
+    margin: 40px auto;
+    padding: 10px 20px;
+    position: relative;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.popup svg {
+    color: white;
+    transition: 0.5s ease all;
+}
+
+.popup svg:hover {
+    color: #081F37;
+    scale: 1.1;
+}
+
+.ContainerCard {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: block;
+    background-color: none;
+    margin-top: 0px;
+}
+
+
+.btn_popup {
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    transition: 0.2s ease all;
+}
+
+
+
+.overlay {
+    z-index: 3000;
+    position: fixed;
+    /* schermo intero*/
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    background: rgba(155, 154, 154, 0.7);
+    /* colore sfondo e opcità */
+    text-align: center;
+    display: none;
+    /*cambiaremo in display: none*/
+}
+
+#close {
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    color: #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* Colonne automatiche adattive */
+    gap: 20px;
+    /* Spazio tra le immagini */
+}
+
+.num_ann {
+    font-weight: bold;
+}
+
+.div-btn-acq {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.btn-acq {
+    margin: 30px;
+    width: 200px;
+}
+
+.grid-item {
+    width: 100%;
+    /* Larghezza massima di ogni elemento */
+}
+
+.grid-item img {
+    width: 100%;
+    /* Riempimento completo dell'elemento padre */
+    height: auto;
+    /* Altezza automatica per mantenere le proporzioni */
+}
+
+#close:hover {
+    cursor: pointer;
+}
+
+.btn-ann {
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.btn-desk2:hover {
+    background-color: #00B58F;
+    color: #081F37;
+
+}
+
+.container-navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 0px;
+}
+
+.div-carosello {
+    padding-top: 40vh;
+    height: 100vh;
+    margin-bottom: 30px;
+}
+
+.carosello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 30vh;
+}
+
+
+.container-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: none;
+    margin: 0px;
+}
+
+.img-logo {
+    object-fit: contain;
+    height: 100%;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 150px;
+}
+
+.container-menu {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.btn_menu {
+    background-color: transparent;
+    border: none;
+}
+
+.container-cat {
+    height: 40px;
+    background-color: rgba(52, 132, 223, 43%);
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 14px;
+    border: none;
+    color: white;
+    background-color: #081F37;
+    height: 35px !important;
+    transition: 0.2s ease all;
+}
+
+.btn:hover {
+    background-color: #00B58F;
+    color: #081F37;
+}
+
+.form-control {
+    margin-top: 5px;
+    height: 30px;
+    width: 70%;
+}
+
+.img-container-mobile {
+    width: 100%;
+    height: 60vh;
+    background-image: url("/public/img/iug.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.icon-btn {
+    margin-right: 0px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+.img-container {
+    display: none;
+    margin-top: 60px;
+    width: 100%;
+    height: 60vh;
+    background: url("/public/img/iug.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-menu {
+    background-color: #081F37;
+    width: 80%;
+    height: 30px;
+    color: white;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    background-color: none;
+    flex: 5;
+    width: 10px;
+}
+
+.d-flex {
+    width: 900px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn-search {
+    display: flex;
+    text-align: center;
+    color: white;
+    background-color: #081F37;
+    height: 35px;
+}
+
+.container-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.btn-copy {
+    margin-top: 20px;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.container2 {
+    height: 200px;
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn2 {
+    background-color: #081F37;
+    width: 90%;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn3 {
+    background-color: rgba(52, 132, 223, 43%);
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-login {
+    text-decoration: none;
+    color: white;
+}
+
+.containerD {
+    min-height: 350px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: transparent;
+}
+
+.box {
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.3)
+}
+
+.cardLayout1 {
+    height: 550px;
+    width: 320px;
+    background-color: #d9d9d999;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.card-body1 {
+    /* background-color: rgba(8, 31, 55, 1); */
+    background-image: url('/public/img/pexels-rdne-stock-project-7309322.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 40px;
+    margin-left: 60px;
+    height: 370px;
+    width: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    color: white;
+    border-radius: 10px;
+    flex-direction: column;
+
+}
+
+.card-body p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-body h4 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.logout:hover {
+    color: red !important;
+
+}
+
+.card-body2 {
+    background-color: rgba(217, 217, 217, 1);
+    background-image: url('/public/img/pexels-marek-levak-2265488.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 40px;
+    margin-top: 40px;
+    height: 370px;
+    width: 600px;
+    border-radius: 10px;
+    flex-direction: column;
+    padding-bottom: 40px;
+    padding-right: 20px;
+
+}
+
+.card-body2 h4 {
+    font-size: 23px;
+    font-weight: 600;
+
+}
+
+
+
+nav.tablet {
+    display: none;
+}
+
+nav.desktop {
+    display: none;
+}
+
+.div-btn-desk {
+    background-color: none;
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+    z-index: 2001;
+}
+
+.A2 {
+    width: 100px;
+}
+
+.A6 {
+    margin-right: 35px
+}
+
+.icon-profile {
+    padding: 5px;
+    width: 70px;
+    height: 50px;
+    border: none;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.btn-log {
+    border: none;
+    background-color: transparent;
+}
+
+.btn-desk {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    align-items: center;
+}
+
+
+
+.btn-desk2 {
+    background-color: #081F37;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 35px;
+    min-width: 120px;
+    width: auto;
+    white-space: nowrap;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease all;
+}
+
+
+.sbm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.banner2 {
+    flex: 1;
+    display: flex;
+    max-height: 50px;
+    justify-content: start;
+    align-items: start;
+    position: sticky;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+}
+
+.back-by-cat {
+    background: url("/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.banner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    height: 50px;
+    background-color: #dbd8e3b0;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-cat {
+    flex: 1;
+    color: #081F37;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.banner-cat:hover {
+    background-color: #f1f0f4bd;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.banner-cat a {
+    color: #081F37;
+}
+
+
+
+.navbar-toggler {
+    background-color: #729fcf;
+    width: 50px;
+    font-size: 16px;
+}
+
+
+
+
+.txt-img {
+    display: none;
+    height: 400px;
+    width: 500px;
+    background-color: black;
+    margin-left: 100px;
+    margin-top: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.txt-img h4 {
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.txt-img h1 {
+    margin-top: 30px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+:root {
+    --bs-gutter-x: 0px;
+    /* Modifica lo spazio orizzontale tra le colonne */
+    --bs-gutter-y: 0px;
+    /* Modifica lo spazio verticale tra le righe */
+}
+
+.foot {
+    height: max-content;
+    background-color: #dbd8e3;
+}
+
+.div-foot {
+    display: flex;
+    padding-right: 100px;
+}
+
+.section1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.border {
+    border-left: solid 1px black !important;
+    height: 100%;
+}
+
+.section2 {
+    margin-top: 20px;
+}
+
+.ul-foot {
+    margin-left: 0px;
+    padding-left: 0rem;
+}
+
+.li-foot {
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+.a-foot {
+    color: rgb(161, 161, 161);
+}
+
+.a-foot:hover {
+    color: #133f6f;
+    text-decoration: underline;
+    transition: 0.29s;
+}
+
+.inp-foot {
+    background-color: white;
+    margin-top: 5px;
+    font-size: 16px;
+    border: none;
+    width: 100% !important;
+}
+
+.foot-lbl {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.btn-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    width: max-content;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #081F37;
+    color: white;
+    border: none;
+}
+
+.div-foot2 {
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+}
+
+
+.social {
+    height: 10vh;
+    width: 100%;
+    border-top: solid 1px #081F37;
+    display: flex;
+    padding: 20px;
+}
+
+.svg-div {
+    margin-left: 10px;
+}
+
+.aside-left {
+    background-color: #dbd8e388;
+    flex: 0.3;
+    width: 200px;
+    margin-top: 60px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: flex;
+}
+
+.div-cons {
+    width: 950px;
+    margin-top: 120px;
+    padding: 0px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #d9d9d99a;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.3);
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-bottom: 50px;
+}
+
+
+
+.div-card {
+    margin-top: 50px;
+    flex: 3;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-card1 {
+    margin-top: 30px;
+    max-height: max-content !important;
+    flex: 3;
+    padding-bottom: 30px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-card_dash {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+.card_dash_p {
+    flex: 1;
+    width: 400px;
+    height: 250px;
+    border-radius: 25px;
+    margin: 30px;
+    background-color: rgba(217, 217, 217, 0.6);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card_dash_p:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+/*.lf {
+    margin-right: 20px;
+}*/
+
+.ul-aside {
+    width: 100%;
+    padding-left: 0rem;
+    padding-right: 10px;
+}
+
+.li-aside:hover {
+    background-color: #00B58F;
+    color: #081F37;
+    transition: 0.7s;
+}
+
+.li-aside {
+    width: 100%;
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px black;
+    display: flex;
+}
+
+.liMargin {
+    margin-left: 10px;
+}
+
+.card-dash {
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-dash2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #dbd8e388;
+    width: 100%;
+    height: 500px;
+}
+
+.DivModProf {
+    background-image: url('/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px;
+    height: max-content;
+    padding-bottom: 10px;
+}
+
+.divPadreMod {
+    height: 500px;
+    margin: 20px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #dbd8e388;
+    display: flex;
+    flex-direction: column;
+}
+
+.InfoModProf {
+    flex: 2;
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.ModFoto {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModFoto1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.ModFoto1 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: none;
+}
+
+.ModForm1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    padding-bottom: 5px;
+
+    background-color: none;
+}
+
+.PadreDivREvi {
+    display: flex;
+    height: max-content
+}
+
+.FormProf {
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid rgb(113, 112, 112);
+    background-color: transparent;
+    padding: 0px;
+
+}
+
+
+
+.img-size {
+    height: 550px;
+    /* Imposta l'altezza desiderata */
+    width: 400px;
+}
+
+.card_dash_pR {
+    flex: 3;
+    width: 900px;
+    height: 250px;
+    border-radius: 25px;
+    margin: 30px;
+    background-color: rgba(217, 217, 217, 0.6);
+}
+
+.card_dash_pR:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+
+.div-descr {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    position: relative;
+}
+
+.div-descr h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.div-descr h1 {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.div-descr h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #00B58F;
+
+}
+
+.div-descr p {
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.ann_tit_rev {
+    padding: 0px;
+    font-size: 20px;
+}
+
+.inserzione {
+    background-color: #dbd8e3;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.containerTitleRevisor {
+
+    width: 100%;
+    display: flex;
+
+}
+
+.containerTitleRevisorChild {
+    flex: 2;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.207);
+}
+
+.containerTitleRevisorChild2 {
+    flex: 4.5;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+
+
+
+
+.li-aside2 {
+    width: 100%;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.grafic-revisor {
+    flex: 1;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    border: 20px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-left: 20px;
+    border-color: black;
+}
+
+.dash_num {
+    font-size: x-large;
+
+}
+
+
+
+.btn4 {
+    background-color: transparent;
+    width: max-content;
+    height: max-content;
+    border: none;
+    border-radius: 20px;
+}
+
+.true:hover {
+    background-color: rgb(6, 184, 6);
+}
+
+.true svg:hover {
+    fill: #081F37;
+}
+
+.false svg:hover {
+    fill: #081F37;
+}
+
+.false:hover {
+    background-color: red;
+}
+
+.div-btn {
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButtonRevisor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 350px;
+}
+
+.containerButtonRevisor button {
+    height: 40px !important;
+
+}
+
+
+.copyRev {
+    margin-left: 200px;
+}
+
+.btn_btn {
+    margin: 40px;
+    width: 150px;
+    background-color: transparent;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.btn_btn svg:hover {
+    fill: #081F37;
+}*/
+
+
+.trueBorder {
+    border: 1px solid green;
+    color: green;
+}
+
+.trueBorder:hover {
+    color: #081F37;
+}
+
+.falseBorder {
+    border: 1px solid red;
+    color: red;
+}
+
+.falseBorder:hover {
+    color: #081F37;
+}
+
+.btn-revisore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divPadreDash {
+    background: url('/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.DivPadreProfile {
+    background: url('/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.divInfoProfile {
+    border-bottom: 1px solid #081F37;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+.divInfoProfile1 {
+    display: flex;
+    padding-top: 100px;
+    height: 40vh;
+    /* background-color: #133f6f;*/
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.divfoto {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex: 0.7;
+    background-color: none;
+    padding-right: 20px;
+}
+
+.divfoto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.divNome {
+    flex: 3;
+    background-color: none;
+    padding-left: 20px;
+}
+
+.divNome h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.divNome p {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.divModifica {
+    flex: 0.5;
+}
+
+.btnModificaProfile {
+    width: 140px;
+    height: 35px;
+    background: #081F37;
+}
+
+.btnArt {
+    margin-left: 10px;
+    display: flex;
+}
+
+.btn-prof {
+    background-color: #081F37;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 35px;
+    min-width: 120px;
+    width: auto;
+    white-space: nowrap;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn-prof:hover {
+    cursor: default;
+}
+
+.pop {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    z-index: 3000;
+    position: fixed;
+    top: 70px;
+    right: 130px;
+}
+
+
+.trasp {
+    opacity: 0.93;
+    color: green;
+}
+
+.traspDenied {
+    opacity: 0.93;
+    color: red;
+
+}
+
+.traspWarning {
+    opacity: 0.93;
+    color: orange;
+
+}
+
+.btnCloseM {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    bottom: 2px;
+    cursor: pointer;
+    font-weight: 500;
+    color: green;
+}
+
+.btnCloseDenied {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    bottom: 2px;
+    cursor: pointer;
+    font-weight: 500;
+    color: red;
+}
+
+@media screen and (max-width:749.90px) {
+    nav.desktop {
+        display: none;
+    }
+
+    nav.tablet {
+        display: none;
+    }
+
+    nav.mobile {
+        display: flex;
+    }
+
+    .body {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .img-logo {
+        object-fit: contain;
+        height: 100%;
+        width: 100px;
+        margin-left: 20px;
+        margin-right: 150px;
+    }
+
+    .container-cat {
+        height: 40px;
+        background-color: rgba(129, 130, 132, 0.43);
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        padding-left: 10px;
+    }
+
+    .Card {
+        display: none;
+    }
+
+    .div-btn-desk {
+        width: 100%;
+    }
+
+    .A3 {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .A6 {
+        margin: 0px;
+    }
+
+    .icon-btn {
+        margin-right: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+
+    .btn-desk2 {
+        width: 100%;
+    }
+
+    .div-modale {
+        flex: 1;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .BtnRegistratiLogin {
+        display: flex !important;
+    }
+
+    .container-copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        background-color: white;
+        background-color: transparent;
+        margin-bottom: 40px;
+    }
+
+    .container2 {
+        height: 200px;
+        width: 60%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
+    }
+
+    .copy {
+        font-size: 10px;
+        font-weight: lighter;
+        color: #4863A0;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .containerD {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        padding-left: 30px;
+        background-color: transparent;
+    }
+
+    .containerD {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px !important;
+
+    }
+
+    .row {
+        --bs-gutter-x: 0rem !important;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    .card-body1 {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin: 0px;
+        margin-top: 40px;
+        width: 250px;
+        height: 180px;
+    }
+
+    .font-img {
+        font-size: smaller;
+        margin-left: 5px;
+    }
+
+    .card-body2 {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin: 0px;
+        width: 250px;
+        height: 180px;
+    }
+
+    .ContainerCard {
+        max-width: 100%;
+        min-height: 100vh;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: none;
+        padding-bottom: 30px;
+        margin-top: 0px;
+      ;
+    }
+
+    .row {
+        width: 100% !important;
+
+    }
+
+  
+
+    .containerPaginate{
+        display: none;
+    }
+
+
+
+    .cardLayout {
+        height: auto;
+        max-width: 250px;
+        background-color: #d9d9d999;
+        margin-left: 40px;
+    }
+
+    .foot {
+        background-color: #dbd8e3;
+        padding: 20px;
+    }
+
+    .div-foot {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .section1,
+    .section2 {
+        width: 100%;
+    }
+
+    .ul-foot {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .li-foot {
+        margin-bottom: 10px;
+    }
+
+    .a-foot {
+        text-decoration: none;
+        color: #333;
+        /* Colore dei link nel footer */
+    }
+
+    .border {
+        width: 230px;
+        display: flex;
+        padding: 10px;
+    }
+
+    .popup {
+        width: 250px;
+        height: 300px;
+        background-color: #dbd8e3;
+        margin: 40px auto;
+        padding: 10px 20px;
+        padding-bottom: 0px;
+        position: relative;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 25px;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+
+    .PadreDivREvi {
+        width: 100%;
+        display: flex;
+    }
+
+    .div-card1 {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .div-card_dash {
+        flex-direction: column;
+    }
+
+    .card_dash_pR {
+        width: 300px;
+    }
+
+    .card_dash_p {
+        width: 300px;
+    }
+
+    .div-form {
+        min-height: 100vh;
+        height: auto;
+        background-image: url('/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        color: black;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .Card {
+        margin-right: 15px !important;
+        margin-left: 0px !important;
+    }
+
+    .div-cons {
+        width: 750px !important;
+        margin-top: 120px;
+        padding: 0px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        background-color: #d9d9d99a;
+        box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.3);
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 25px;
+        margin-bottom: 50px;
+    }
+
+    .cardLayoutFormCreate {
+        height: 450px;
+        width: 300px !important;
+        background-color: #d9d9d999;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .aside-left {
+        display: none;
+    }
+
+
+    .card-dash2 {
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerCardDash {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: start !important;
+    }
+
+    .img-size {
+        width: 100%;
+        height: 100%;
+    }
+
+    .containerButtonRevisor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: 235px;
+    }
+
+    .true {
+        width: 100px !important;
+    }
+
+    .false {
+
+        width: 100px !important;
+    }
+
+
+    .ann_tit_rev {
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .carousel-control-next {
+        left: 180px;
+    }
+
+    .carousel-control-prev-icon {
+        background-color: #081F37;
+        height: 50px;
+        width: 40px;
+        border-radius: 20%;
+        padding: 0px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        position: relative;
+        right: 0px !important;
+        margin: 0px !important;
+    }
+
+    .carousel-control-next-icon {
+        padding: 0px;
+    }
+
+    .slide {
+        width: 280px;
+        height: 320px;
+        margin-top: 30px;
+    }
+
+    .copyRev {
+        margin-left: 0px;
+    }
+
+    .card-dash {
+        width: 280px;
+        margin-top: 40px;
+        margin-left: 50px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .DivOFF {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .container-fluid {
+        flex: 2;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .btn-revisore {
+        flex: 2;
+        margin-bottom: 15px;
+    }
+
+    .div-btn-desk {
+        flex: 4;
+        flex-direction: column;
+    }
+
+    .btn-ann {
+        display: flex;
+    }
+}
+
+@media screen and (min-width:560px) and (max-width:750.9px) {
+
+    .container-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .row {
+        width: 100% !important;
+    }
+
+    .containerD {
+        display: flex;
+        flex-direction: row;
+        width: 100% !important;
+        height: 70vh;
+        margin-bottom: 100px;
+    }
+
+    .container-row {
+        margin-bottom: 30px !important;
+    }
+
+    .card-body1 {
+        height: 300px;
+        width: 500px;
+    }
+
+    .card-body2 {
+        height: 300px;
+        width: 500px;
+    }
+
+    .banner {
+        margin-top: 20px;
+    }
+
+    .containerPadreLogin {
+        width: 90%;
+        min-height: 100vh;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*background-color: rgb(245, 243, 243);*/
+        background-image: url("/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        flex-direction: column;
+        padding: 60px;
+    }
+
+    .div-btn-desk {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .btn-desk2 {
+        margin: 30px;
+    }
+
+    .dropdown.icon-btn {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 160px;
+        padding: .5rem 0;
+        margin: .125rem 0 0;
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .15);
+        border-radius: .25rem;
+    }
+
+    .dropdown-menu.show {
+        display: block;
+    }
+
+    .form-control {
+        margin-top: 5px;
+        height: 30px;
+        width: 70%;
+        background-color: #dbd8e3;
+    }
+
+    .container-fluid {
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+        background-color: none;
+        flex: 2;
+        width: 10px;
+    }
+
+    .btn-ann {
+        display: flex;
+    }
+
+    .div-form {
+        min-height: 100vh;
+        height: auto;
+        background-image: url('/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        color: black;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .Card {
+        margin-right: 15px !important;
+        margin-left: 0px !important;
+    }
+
+    .div-cons {
+        width: 750px !important;
+        margin-top: 120px;
+        padding: 0px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        background-color: #d9d9d99a;
+        box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.3);
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 25px;
+        margin-bottom: 50px;
+    }
+
+    .cardLayoutFormCreate {
+        height: 450px;
+        width: 300px !important;
+        background-color: #d9d9d999;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .PadreDivREvi {
+        width: 100%;
+        display: flex;
+    }
+
+    .div-card1 {
+        flex-direction: column !important;
+        margin-top: 50px;
+    }
+
+    .div-card_dash {
+        flex-direction: column !important;
+    }
+
+    .card_dash_pR {
+        width: 300px;
+    }
+
+    .card_dash_p {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:990.9px) {
+    .container-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+    .mobile {
+        display: none !important;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .tablet {
+        display: flex !important;
+    }
+
+    .container-logo {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        background-color: none;
+        padding-left: 100px;
+    }
+
+    .container-cat {
+        display: none;
+    }
+
+    .banner {
+        margin-top: 60px;
+
+    }
+
+    .container-copy {
+        margin-bottom: 80px;
+    }
+
+    .ContainerCard {
+        padding-top: 120px;
+    }
+
+    .row {
+        width: 100% !important;
+    }
+
+    .div-container {
+        margin-top: 0px;
+    }
+
+    .DIVLOg {
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .container-logo {
+        width: 70%;
+    }
+
+    .btn-revisore {
+        margin-top: 60px;
+    }
+
+    .div-btn-desk {
+        display: flex;
+        flex-direction: column !important;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .btn-close {
+        width: 50%;
+        height: 100px;
+        margin-right: 90px !important;
+    }
+
+    .container-fluid {
+        width: 235px !important;
+        position: absolute;
+        right: 120px;
+    }
+
+    .container-menu {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+        position: absolute;
+        right: 15px;
+    }
+
+    .form-control {
+        margin-top: 15px;
+    }
+
+    .container-cat {
+        margin-top: 0px;
+    }
+
+    .containerD {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        height: 70vh;
+    }
+
+    .container-row {
+        margin-left: 30px;
+        padding-right: 0px;
+        padding-left: 50px;
+    }
+
+    .container-logo {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        background-color: none;
+        margin: 0px;
+    }
+
+    .PadreDivREvi {
+        width: 100%;
+        display: flex !important;
+    }
+
+    .div-card1 {
+        flex-direction: column !important;
+        margin-top: 50px;
+    }
+
+    .div-card_dash {
+        flex-direction: column !important;
+    }
+
+    .card_dash_pR {
+        width: 300px !important;
+    }
+
+    .card_dash_p {
+        width: 300px !important;
+    }
+
+    .div-btn-desk {
+        background-color: none;
+        display: flex;
+        flex-direction: column !important;
+        flex: 1;
+        justify-content: end;
+        align-items: center;
+        z-index: 2001;
+    }
+
+    .containerPadreLogin {
+        width: 80%;
+        min-height: 100vh;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*background-color: rgb(245, 243, 243);*/
+        background-image: url("/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg");
+        background-size: cover;
+        background-position: center;
+        flex-direction: column;
+        padding: 60px !important;
+    }
+
+    .div-foot {
+        display: flex;
+        padding-right: 100px !important;
+    }
+
+    .div-form {
+        padding: 50px !important;
+    }
+
+    .Card {
+        margin-right: 20px !important;
+        margin-left: 0px !important;
+    }
+
+    .container-fluid {
+        margin-right: 0px;
+        right: 0px;
+    }
+
+    .btn-ann {
+        display: flex;
+    }
+
+    .cardLayoutFormCreate {
+        height: 450px;
+        width: 300px !important;
+        background-color: #d9d9d999;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .div-cons {
+        width: 750px !important;
+    }
+
+    .div-form {
+        min-height: 100vh;
+        height: auto;
+        background-image: url('/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        color: black;
+        justify-content: center;
+        padding: 60px !important;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1200.9px) {
+    nav.desktop {
+        display: flex;
+    }
+
+    nav.tablet {
+        display: none;
+    }
+
+    nav.mobile {
+        display: none;
+    }
+
+    .container-logo {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        background-color: none;
+        margin: 0px;
+    }
+
+    .div_container_btn {
+        position: relative;
+        top: 100px;
+        left: 180px;
+    }
+
+
+    .containerPadreLogin {
+        width: 90%;
+        min-height: 100vh;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*background-color: rgb(245, 243, 243);*/
+        background-image: url("/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg");
+        background-size: cover;
+        background-position: center;
+        flex-direction: column;
+        padding: 60px !important;
+    }
+
+
+    .PadreDivREvi {
+        width: 100%;
+        display: flex !important;
+    }
+
+    .div-card1 {
+        flex-direction: column !important;
+        margin-top: 50px;
+    }
+
+    .div-card_dash {
+        flex-direction: column;
+    }
+
+    .card_dash_pR {
+        width: 600px !important;
+    }
+
+    .card_dash_p {
+        width: 600px !important;
+    }
+
+
+}
+
+@media screen and (min-width:1201px) {
+    .nav.mobile {
+        display: none !important;
+    }
+
+    .container-cat {
+        display: none;
+    }
+
+
+    nav.tablet {
+        display: none;
+    }
+
+    nav.desktop {
+        display: flex !important;
+    }
+
+    .container-cat {
+        display: none;
+    }
+
+    nav.desktop {
+        display: flex;
+    }
+
+    .btn-copy {
+        display: none;
+    }
+
+    .banner {
+        display: flex;
+    }
+
+    .txt-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        background-color: rgba(253, 245, 245, 0.764);
+        padding-bottom: 40px;
+        border-radius: 20px;
+        text-align: center;
+        border: 1px solid #081F37;
+        height: 350px;
+    }
+
+    .btn-txt-img {
+        height: 50px;
+        width: 80%;
+        background-color: #081F37;
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 20px;
+        margin-top: 70px;
+        transition: 0.2s ease-in-out;
+
+    }
+
+    .txt-a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .btn-txt-img:hover {
+        background-color: #133f6f;
+    }
+
+    .img-container-mobile {
+        display: none;
+    }
+
+    .img-container {
+        display: flex;
+    }
+
+    .icon-btn {
+        width: 70px;
+    }
+
+    .div_container_btn {
+        position: relative;
+        top: 100px;
+        left: 180px;
+    }
+}
+
+.containerCardDash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerInfoRevisor {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+
+}

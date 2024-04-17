@@ -1,0 +1,843 @@
+@import "bootstrap";
+@import './style.css';
+@import "/node_modules/flag-icons/css/flag-icons.min.css";
+
+
+
+* {
+    font-family: "Akshar", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+.containerPadreLogin {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgb(245, 243, 243);*/
+    background-image: url("/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    padding: 60px;
+}
+
+#containerFormLogin {
+    min-height: 70vh;
+    height: auto;
+    padding: 20px;
+    background-color: #d9d9d9b2;
+    border-radius: 20px;
+    margin-top: 70px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-bottom: 50px;
+}
+
+.accediLogin {
+    margin-bottom: 30px;
+    color: black !important;
+
+}
+
+form input {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 22px;
+    padding-left: 10px;
+
+}
+
+form label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.BtnAccediLogin {
+    height: 45px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #081F37;
+    color: white;
+}
+
+.BtnAccediLogin:hover {
+    background-color: #0d3b6f;
+    transition: 0.3s;
+}
+
+.BtnRegistratiLogin {
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #081F37;
+    color: white;
+}
+
+.BtnAuthGoogle {
+    height: 45px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #081F37;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BtnAuthGoogle svg {
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+
+}
+
+.BtnAuthGoogle:hover {
+    background-color: #0d3b6f;
+    transition: 0.3s;
+}
+
+.BtnAuthGoogle a {
+    font-size: 19px;
+}
+
+.BtnRegistratiLogin:hover {
+    background-color: #0d3b6f;
+    transition: 0.3s;
+}
+
+
+
+.oppureLogin {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.pswDimenticata {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.vaiARegistrati {
+    text-align: center;
+    font-size: 16px;
+}
+
+.vaiARegistrati:hover {
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+
+
+.pswDimenticata:hover {
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.accedi {
+    color: black;
+}
+
+.accedi:hover {
+    color: #144983;
+    transition: 0.2s;
+
+}
+
+.giaRegistrato {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* SEZIONE CARD HOME COMPONENT*/
+.containerTest {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+
+
+.cardLayout {
+    height: 550px;
+    width: 320px;
+    background-color: #d9d9d999;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.cardLayoutFormCreate {
+    height: 550px;
+    width: 320px;
+    background-color: #d9d9d999;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.imgCard {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    flex: 9;
+    padding: 0px;
+}
+
+.imgCard img {
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit: cover;
+}
+
+.userCard {
+    flex: 0.5;
+    background-color: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /*non andare a capo*/
+    white-space: nowrap;
+
+}
+
+.imageUser {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 100%;
+
+}
+
+.imageUser1 {
+    height: 30px;
+    width: 30px;
+    background-color: #081F37;
+    margin-left: 5px;
+    border-radius: 100%;
+}
+
+
+.imageUser img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.imageUser1 img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.nomeUser {
+    background-color: none;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 7px;
+    padding-top: 10px;
+    height: 80%;
+    width: 100px;
+    color: rgba(0, 0, 0, 0.783);
+    margin-bottom: 10px;
+
+}
+
+.nomeUser p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.div-form {
+    min-height: 100vh;
+    height: auto;
+    background-image: url('/public/img/sfondo-astratto-con-un-design-monocromatico-low-poly_1048-14453.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: black;
+    justify-content: center;
+
+}
+
+.Card {
+    margin-right: 70px;
+    margin-left: 60px;
+}
+
+.div-modale {
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    background-color: #d9d9d9e0;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.form3 {
+    background-color: transparent;
+
+}
+
+.nomeUser p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.prezzoCard {
+    flex: 0.2;
+    height: 70px;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: none;
+    white-space: nowrap;
+
+}
+
+.centro-skeletron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.skeleton {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.skeleton span {
+    margin-bottom: 10px;
+
+}
+
+.prezzoCard p {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: -5px;
+}
+
+.prezzoCard h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: black;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.prezzoCard h6 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: black;
+    white-space: nowrap;
+    position: relative;
+    top: -10px;
+    text-align: center;
+
+
+}
+
+.descrizioneCard {
+    flex: 2;
+    background-color: none;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: none;
+    text-overflow: clip;
+
+}
+
+
+.descrizioneCard p {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 10px;
+    position: relative;
+    bottom: -8px;
+}
+
+
+.btnCardLayout {
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    background-color: #081F37;
+    color: white;
+    font-weight: 500;
+}
+
+.btnCardLayout:hover {
+    background-color: #0d3b6f;
+    transition: 0.3s;
+}
+
+.copy {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4863A0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ContainerCard1 {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    background-color: none;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    align-content: center;
+    justify-content: center;
+    flex: 3;
+}
+
+
+
+#containerColCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    width: 350px;
+    margin-left: 5px;
+    background-color: none;
+}
+
+.carousel-control-prev-icon {
+    background-color: #081F37;
+    height: 50px;
+    width: 40px;
+    border-radius: 20%;
+    padding: 10px;
+    position: relative;
+    right: 40px;
+}
+
+.carousel-control-next-icon {
+    background-color: #081F37;
+    height: 50px;
+    width: 40px;
+    border-radius: 20%;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+}
+
+
+
+
+#carouselExampleCaptions {
+    width: 100%;
+    height: 100%;
+    background-color: none;
+}
+
+.containerPageShow {
+    min-height: 100vh;
+    height: auto;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 80px;
+}
+
+.cardLayout:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+
+.containerCaruselShow {
+    background-color: none;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+
+}
+
+.containerCaruselShow img {
+    height: 550px;
+    width: 500px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    object-fit: cover;
+}
+
+.containerTextShow {
+    height: 550px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 50px;
+    padding-left: 70px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #d9d9d9b2;
+    margin-right: 20px;
+
+}
+
+.containerTextShow h1 {
+    font-size: 60px;
+    white-space: nowrap;
+    font-weight: 500;
+    color: black;
+}
+
+.containerTextShow p {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-top: 50px;
+}
+
+.containerTextShow h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+#dropdownMenuNavDesktop {
+    margin-bottom: 5px;
+
+}
+
+#annuncioHome1 {
+    background-color: red;
+}
+
+.ContainerModaleCookies {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modaleCookies {
+    background-color: none;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.modaleCookies p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.modaleCookies h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.containerTextModale {
+    flex: 3;
+    background-color: #dbd8e3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+}
+
+.containerBtnCookies {
+    flex: 0.5;
+    background-color: #dbd8e3;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    gap: 15px;
+}
+
+.containerBtnCookies button {
+    width: 100px;
+}
+
+.RemoveFormCreate {
+    width: 100px;
+    font-size: 17px;
+
+}
+
+.containerPaginate {
+    height: auto;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.MyArticle {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 60vh;
+
+}
+
+.myFavorite {
+    background-color: red;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 50vh;
+    display: none
+}
+
+.Areabutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btnCardLayoutProfile1 {
+    flex: 1;
+    border-radius: 5px;
+    ;
+    height: 40px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    background-color: #081F37;
+    color: white;
+    font-weight: 500;
+}
+
+.btnCardLayoutProfile1:hover {
+    background-color: #0d3b6f;
+    transition: 0.3s;
+}
+
+
+
+.btnCardLayoutProfileShow {
+    flex: 4;
+    border-radius: 5px;
+    font-size: 16px;
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    background-color: #081F37;
+    color: white;
+    font-weight: 500;
+}
+
+.btnCardLayoutProfileShow:hover {
+    background-color: #0d3b6f;
+    transition: 0.3s;
+}
+
+.XcolorA {
+    color: black;
+}
+
+.containerInfoGoogle {
+    height: 100%;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    flex-direction: column;
+}
+
+.containerTag {
+    flex: 1;
+    background-color: none;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+
+.containerTag span {
+    color: black;
+    font-size: 12px;
+}
+
+.containerFlagRevisor {
+    flex: 1;
+    padding-top: 30px;
+    background-color: none;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.containerBtnEditProfile {
+    height: 50px;
+    background-color: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.containerBtnEditProfile {
+    height: 40px !important;
+    width: 200px;
+    font-size: 18px;
+}
+
+.selectProfileImg {
+    background-color: none;
+    height: auto;
+    width: 230px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.containerInputProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    height: 60px;
+    margin-left: 20px;
+
+}
+
+.imgProfileNav {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.buttonBecomeRevisorDashboard {
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepageDashboard {
+    background-image: url('/public/img/pexels-rdne-stock-project-7309322.jpg');
+    opacity: 0.9;
+    background-size: cover;
+    color: white;
+}
+
+.creaAnnuncioDashboard {
+    background-image: url('/public/img/pexels-photo-4464487.jpeg');
+    opacity: 0.9;
+    background-size: cover;
+    color: black;
+}
+
+.RevisorDashboard {
+    background-image: url('/public/img/pexels-marek-levak-2265488.jpg');
+    opacity: 0.89;
+    background-size: cover;
+    color: white;
+}
+
+.containerUserRevisor {
+    height: 40px;
+    padding: 5px;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+
+.containerUserRevisor h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin: 0px;
+}
+
+.containerUserRevisor img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+    object-fit: cover;
+}
